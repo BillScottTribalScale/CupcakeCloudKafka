@@ -1,0 +1,16 @@
+---
+applications:
+- name: payday-kafka-listener
+  memory: 500M
+  disk_quota: 500M
+  instances: 1
+  buildpacks: 
+    - dotnet_core_buildpack214  
+  services:
+    - payroll-discovery-service
+  env: 
+    ASPNETCORE_ENVIRONMENT: DEV
+    KRB5_CONFIG: /home/vcap/app/krb5.conf
+    SASL_PATH: /home/vcap/app/deps/sasl2
+  routes:
+    - route: payday-kafka-listener.apps.cac.preview.pcf.manulife.com  

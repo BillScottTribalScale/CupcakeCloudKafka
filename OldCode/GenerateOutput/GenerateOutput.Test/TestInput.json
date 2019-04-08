@@ -1,0 +1,83 @@
+{
+    "fileID": "398fab3b-08cd-4379-b592-a8bc0827df77",
+    "fileProperties": {
+        "fileID": "398fab3b-08cd-4379-b592-a8bc0827df77",
+        "participantAmountCount": 100,
+        "planCode": "FJ0102",
+        "planDailyFlagValue": "Daily",
+        "shareExchangeCCode": "AC53",
+        "wireNumber": "wireNumberHere",
+        "dailyCycleDate": "dailyCycleDateHere mm/dd/yyyy",
+        "dailyCyclePostID": "dailyCyclePostIDHere ######",
+        "updateMode": "UpdateModeHere",
+        "sourceCode": "wireNumberHere",
+        "sourceType": 106,
+        "complianceDate": "11/21/2018",
+        "splitFileFlag": "True",
+        "tblSourceForPSS": "",
+        "conduitEarningsFlag": "False",
+        "conduitEarningsActivityCode": "",
+        "conduitEarningsAmount": "0",
+        "preFundFlag": "False",
+        "preFundDepositAmount": "0",
+        "preFundInterest": "0",
+        "preFundWireNumber": "0",
+        "tapeNumber": "29000",
+        "reRunFinancials": "False",
+        "splitFileFromMatchFlag": "False",
+        "numericsFlag": "False",
+        "bypass402gTest": "False",
+        "threshold402g": "50",
+        "multipleWires": "True",
+        "splitBy": "Region",
+        "printDetailReport": "False",
+        "printParticNoActivity": "False",
+        "workFileName": "D134195",
+        "fileName": "PSPFJ0102",
+        "filePath": "N:/NEWPARTS/DATA/PARTSPLANS/FJ0102/TransactionFiles/",
+        "fileDescription": "Sample Payroll File",
+        "fileRows": 1414,
+        "fileColumns": 38
+    },
+    "participantAllocations": [{
+            "InvestmentType": "compensation",
+            "AccountId": "T123456",
+            "Value": 111,
+            "Code": "nu07",
+            "ComplyDate": "2018-12-25",
+            "fileKey": "398fab3b-08cd-4379-b592-a8bc0827df77"
+        },
+        {
+            "InvestmentType": "compensation",
+            "AccountId": "123456",
+            "Value": 111,
+            "Code": "nu07",
+            "ComplyDate": "2018-12-25",
+            "fileKey": "398fab3b-08cd-4379-b592-a8bc0827df77"
+        },
+        {
+            "InvestmentType": "compensation",
+            "AccountId": "123456",
+            "Value": 111,
+            "Code": "nu07",
+            "ComplyDate": "2018-12-25",
+            "fileKey": "398fab3b-08cd-4379-b592-a8bc0827df77"
+        },
+        {
+            "InvestmentType": "compensation",
+            "AccountId": "123456",
+            "Value": 111,
+            "Code": "nu07",
+            "ComplyDate": "2018-12-25",
+            "fileKey": "398fab3b-08cd-4379-b592-a8bc0827df77"
+        },
+        {
+            "InvestmentType": "compensation",
+            "AccountId": "123456",
+            "Value": 111,
+            "Code": "nu07",
+            "ComplyDate": "2018-12-25",
+            "fileKey": "398fab3b-08cd-4379-b592-a8bc0827df77"
+        }
+    ]
+}

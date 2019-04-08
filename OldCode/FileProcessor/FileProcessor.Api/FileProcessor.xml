@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>FileProcessor.Api</name>
+    </assembly>
+    <members>
+        <member name="M:FileProcessor.Api.Services.FileProcessorService.StartProcess(System.String)">
+            TODO: this function may need to be async, to avoid api time-out
+            TODO: need to generate a guid representing the batch file process.
+        </member>
+    </members>
+</doc>

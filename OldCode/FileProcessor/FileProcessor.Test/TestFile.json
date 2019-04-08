@@ -1,0 +1,35 @@
+{
+    "fileProperties": 
+    {
+        "planCode": "FJ0102",       
+        "PlanDailyFlagValue": "Daily",
+        "originalFileName": "PARTSSPLITFILEFJ0102.json",
+        "wireNumber": "117893",
+        "payrollEffectiveDate": "10/31/2018",
+        "dailyCycleDate": "11/2/2018",
+        "updateMode": "Update",
+        "fileRows": 1542,
+        "fileColumns": 38
+    },
+    "fieldProperties": 
+    [
+        {"itemNumber":1, "code": "mtdcomp", "datatype": "compensation", "reportlabel": "plan comp, ptd", "fundelectionsetoption": "0", "fundcode": "", "electionsetcode": "", "portionspecialnumericoption": "2", "specialnumericcode": "nu07", "portioncode": "", "activitytypecode": "", "activitytypeShareExchangeCode": ""},
+        {"itemNumber":2, "code": "ptdother1", "datatype": "compensation", "reportlabel": "plan comp, qtd", "fundelectionsetoption": "0", "fundcode": "", "electionsetcode": "", "portionspecialnumericoption": "2", "specialnumericcode": "nu11", "portioncode": "", "activitytypecode": "", "activitytypeShareExchangeCode": ""}, 
+        {"itemNumber":3, "code": "mtdpretax", "datatype": "financial", "reportlabel": "pre-tax, ptd", "fundelectionsetoption": "2", "fundcode": "", "electionsetcode": "el00", "portionspecialnumericoption": "1", "specialnumericcode": "", "portioncode": "pt12", "activitytypecode": "ac36", "activitytypeShareExchangeCode": "ac45"}
+    ],
+    "FileDetails": 
+    {
+        "Participants": 
+        [
+            {"tag": ".f.", "recstatus": "P", "accountId": "452061756", "name": "����嬠���젠�����������������", "mtdcomp": 5475.36, "ptdother1": 32852.14, "mtdpretax": 547.54, "mtdmatch": 0.00, "ptdpscont": 0.00, "ptdabasic": 0.00, "fujitsucu": 0.00, "ptdrothdf": 0.00, "ptdrcatup": 0.00, "mtdloan": 0.00, "matchreg": 0.00, "match3": 0.00, "match9": 0.00, "match10": 0.00, "match11": 0.00, "match4": 0.00, "match12": 0.00, "match13": 0.00, "match14": 0.00, "match15": 0.00, "match5": 0.00, "match2": 0.00, "match16": 136.88, "match6": 0.00, "match1": 0.00, "match7": 0.00, "match8": 0.00, "match17": 0.00, "match18": 0.00, "match19": 0.00, "match20": 0.00, "match21": 0.00, "match22": 0.00, "match23": 0.00}, 
+            {"tag": ".f.", "recstatus": "P", "accountId": "263852515", "name": "�����䬠�������������������", "mtdcomp": 6331.12, "ptdother1": 37986.76, "mtdpretax": 0.00, "mtdmatch": 0.00, "ptdpscont": 0.00, "ptdabasic": 1202.91, "fujitsucu": 0.00, "ptdrothdf": 0.00, "ptdrcatup": 0.00, "mtdloan": 0.00, "matchreg": 0.00, "match3": 0.00, "match9": 0.00, "match10": 0.00, "match11": 0.00, "match4": 0.00, "match12": 0.00, "match13": 0.00, "match14": 0.00, "match15": 0.00, "match5": 0.00, "match2": 0.00, "match16": 158.28, "match6": 0.00, "match1": 0.00, "match7": 0.00, "match8": 0.00, "match17": 0.00, "match18": 0.00, "match19": 0.00, "match20": 0.00, "match21": 0.00, "match22": 0.00, "match23": 0.00}, 
+            {"tag": ".f.", "recstatus": "P", "accountId": "409969965", "name": "������������젠������������", "mtdcomp": 5891.12, "ptdother1": 35346.71, "mtdpretax": 765.85, "mtdmatch": 0.00, "ptdpscont": 0.00, "ptdabasic": 0.00, "fujitsucu": 0.00, "ptdrothdf": 0.00, "ptdrcatup": 0.00, "mtdloan": 0.00, "matchreg": 0.00, "match3": 0.00, "match9": 0.00, "match10": 0.00, "match11": 0.00, "match4": 0.00, "match12": 0.00, "match13": 0.00, "match14": 0.00, "match15": 0.00, "match5": 0.00, "match2": 0.00, "match16": 147.28, "match6": 0.00, "match1": 0.00, "match7": 0.00, "match8": 0.00, "match17": 0.00, "match18": 0.00, "match19": 0.00, "match20": 0.00, "match21": 0.00, "match22": 0.00, "match23": 0.00}, 
+            {"tag": ".f.", "recstatus": "P", "accountId": "428219358", "name": "����謠������֠��������������", "mtdcomp": 5824.99, "ptdother1": 34949.95, "mtdpretax": 663.83, "mtdmatch": 0.00, "ptdpscont": 0.00, "ptdabasic": 209.92, "fujitsucu": 0.00, "ptdrothdf": 0.00, "ptdrcatup": 0.00, "mtdloan": 0.00, "matchreg": 0.00, "match3": 0.00, "match9": 0.00, "match10": 0.00, "match11": 0.00, "match4": 0.00, "match12": 0.00, "match13": 0.00, "match14": 0.00, "match15": 0.00, "match5": 0.00, "match2": 0.00, "match16": 145.62, "match6": 0.00, "match1": 0.00, "match7": 0.00, "match8": 0.00, "match17": 0.00, "match18": 0.00, "match19": 0.00, "match20": 0.00, "match21": 0.00, "match22": 0.00, "match23": 0.00}, 
+            {"tag": ".f.", "recstatus": "P", "accountId": "055467080", "name": "���������������䠠������������", "mtdcomp": 0.00, "ptdother1": 0.00, "mtdpretax": 0.00, "mtdmatch": 0.00, "ptdpscont": 0.00, "ptdabasic": 0.00, "fujitsucu": 0.00, "ptdrothdf": 0.00, "ptdrcatup": 0.00, "mtdloan": 445.47, "matchreg": 0.00, "match3": 0.00, "match9": 0.00, "match10": 0.00, "match11": 0.00, "match4": 0.00, "match12": 0.00, "match13": 0.00, "match14": 0.00, "match15": 0.00, "match5": 0.00, "match2": 0.00, "match16": 0.00, "match6": 0.00, "match1": 0.00, "match7": 0.00, "match8": 0.00, "match17": 0.00, "match18": 0.00, "match19": 0.00, "match20": 0.00, "match21": 0.00, "match22": 0.00, "match23": 0.00}, 
+            {"tag": ".f.", "recstatus": "P", "accountId": "097428267", "name": "������嬠������젠������������", "mtdcomp": 5827.14, "ptdother1": 34962.84, "mtdpretax": 349.63, "mtdmatch": 0.00, "ptdpscont": 0.00, "ptdabasic": 0.00, "fujitsucu": 0.00, "ptdrothdf": 0.00, "ptdrcatup": 0.00, "mtdloan": 140.75, "matchreg": 0.00, "match3": 0.00, "match9": 0.00, "match10": 0.00, "match11": 0.00, "match4": 0.00, "match12": 0.00, "match13": 0.00, "match14": 0.00, "match15": 0.00, "match5": 0.00, "match2": 0.00, "match16": 145.68, "match6": 0.00, "match1": 0.00, "match7": 0.00, "match8": 0.00, "match17": 0.00, "match18": 0.00, "match19": 0.00, "match20": 0.00, "match21": 0.00, "match22": 0.00, "match23": 0.00}, 
+            {"tag": ".f.", "recstatus": "P", "accountId": "212413191", "name": "����笠��������������������", "mtdcomp": 5058.77, "ptdother1": 30352.62, "mtdpretax": 502.07, "mtdmatch": 0.00, "ptdpscont": 0.00, "ptdabasic": 0.00, "fujitsucu": 0.00, "ptdrothdf": 0.00, "ptdrcatup": 0.00, "mtdloan": 0.00, "matchreg": 0.00, "match3": 0.00, "match9": 0.00, "match10": 0.00, "match11": 0.00, "match4": 0.00, "match12": 0.00, "match13": 0.00, "match14": 0.00, "match15": 0.00, "match5": 0.00, "match2": 0.00, "match16": 126.47, "match6": 0.00, "match1": 0.00, "match7": 0.00, "match8": 0.00, "match17": 0.00, "match18": 0.00, "match19": 0.00, "match20": 0.00, "match21": 0.00, "match22": 0.00, "match23": 0.00}, 
+            {"tag": ".f.", "recstatus": "P", "accountId": "225983718", "name": "����謠����蠠����������������", "mtdcomp": 0.00, "ptdother1": 0.00, "mtdpretax": 0.00, "mtdmatch": 0.00, "ptdpscont": 0.00, "ptdabasic": 0.00, "fujitsucu": 0.00, "ptdrothdf": 0.00, "ptdrcatup": 0.00, "mtdloan": 0.00, "matchreg": 0.00, "match3": 0.00, "match9": 0.00, "match10": 0.00, "match11": 0.00, "match4": 0.00, "match12": 0.00, "match13": 0.00, "match14": 0.00, "match15": 0.00, "match5": 0.00, "match2": 0.00, "match16": 0.00, "match6": 0.00, "match1": 0.00, "match7": 0.00, "match8": 0.00, "match17": 0.00, "match18": 0.00, "match19": 0.00, "match20": 0.00, "match21": 0.00, "match22": 0.00, "match23": 0.00}
+        ]
+    }
+    
+}

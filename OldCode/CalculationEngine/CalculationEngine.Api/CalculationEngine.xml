@@ -1,0 +1,94 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CalculationEngine.Api</name>
+    </assembly>
+    <members>
+        <member name="T:CalculationEngine.Api.Controllers.CalculationEngineController">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:CalculationEngine.Api.Controllers.CalculationEngineController.#ctor(Microsoft.Extensions.Logging.ILogger{CalculationEngine.Api.Controllers.CalculationEngineController},CalculationEngine.Api.Services.ICalculationEngineService)">
+            <summary>
+            
+            </summary>
+            <param name="logger"></param>
+            <param name="calcEngine"></param>
+        </member>
+        <member name="T:CalculationEngine.Api.Models.InvestmentBase">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:CalculationEngine.Api.Models.InvestmentBase.GenerateJson">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:CalculationEngine.Api.Services.CalculationEngineService">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:CalculationEngine.Api.Services.CalculationEngineService.#ctor(Microsoft.Extensions.Logging.ILogger{CalculationEngine.Api.Services.CalculationEngineService},CalculationEngine.Api.Services.IMessagePublisher)">
+            <summary>
+            
+            </summary>
+            <param name="logger"></param>
+            <param name="publisher"></param>
+        </member>
+        <member name="M:CalculationEngine.Api.Services.CalculationEngineService.StartProcess(System.String)">
+            <summary>
+            
+            </summary>
+            <param name="messageContent"></param>
+            <returns></returns>
+        </member>
+        <member name="T:CalculationEngine.Api.Services.ICalculationEngineService">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:CalculationEngine.Api.Services.ICalculationEngineService.StartProcess(System.String)">
+            <summary>
+            
+            </summary>
+            <param name="messageContent"></param>
+            <returns></returns>
+        </member>
+        <member name="T:CalculationEngine.Api.Services.IMessagePublisher">
+            <summary>
+            IMessagePublisher interface for sending allocation investment to kafka producer
+            </summary>
+        </member>
+        <member name="M:CalculationEngine.Api.Services.IMessagePublisher.SendParticipantAllocationsMessage(System.String)">
+            <summary>
+            This method is used to send the participant allocation message to kafka
+            </summary>
+            <param name="investment">participants investments</param>
+            <returns>true/false</returns>
+        </member>
+        <member name="T:CalculationEngine.Api.Services.MessagePublisher">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:CalculationEngine.Api.Services.MessagePublisher.#ctor(Microsoft.Extensions.Logging.ILogger{CalculationEngine.Api.Services.MessagePublisher},Common.Lib.Kafka.IKafkaConfiguration,Common.Lib.Kafka.IKafkaPublisher)">
+            <summary>
+            MessagePublisher Constructor with DI
+            </summary>
+            <param name="logger"></param>
+            <param name="kafkaConfighelper"></param>
+            <param name="kafkaPublisher"></param>
+        </member>
+        <member name="M:CalculationEngine.Api.Services.MessagePublisher.SendParticipantAllocationsMessage(System.String)">
+            <summary>
+            This method is used to send the participant allocation message to kafka
+            </summary>
+            <param name="investment">participants investments</param>
+            <returns>true/false</returns>
+        </member>
+    </members>
+</doc>

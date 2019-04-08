@@ -1,0 +1,861 @@
+{
+    "fileProperties": 
+    {
+    "planCode": "FJ0102",
+    "planDailyFlagValue": "Daily",
+    "shareExchangeCCode": "AC53",
+    "wireNumber": "wireNumberHere",
+    "dailyCycleDate": "dailyCycleDateHere mm/dd/yyyy",
+    "dailyCyclePostID": "dailyCyclePostIDHere ######",
+    "updateMode": "UpdateModeHere",
+    "sourceCode": "wireNumberHere",
+    "sourceType": 106,
+    "complianceDate": "11/21/2018",
+    "splitFileFlag": "True",
+    "tblSourceForPSS": "",
+    "conduitEarningsFlag": "False",
+    "conduitEarningsActivityCode": "",
+    "conduitEarningsAmount": "0",
+    "preFundFlag": "False",
+    "preFundDepositAmount": "0",
+    "preFundInterest": "0",
+    "preFundWireNumber": "0",
+    "tapeNumber": "29000",
+    "reRunFinancials": "False",
+    "splitFileFromMatchFlag": "False",
+    "numericsFlag": "False",
+    "bypass402gTest": "False",
+    "threshold402g": "50",
+    "multipleWires": "True",
+    "splitBy": "Region",
+    "printDetailReport": "False",
+    "printParticNoActivity": "False",
+    "workFileName": "D134195",
+    "fileName": "PSPFJ0102",
+    "filePath": "N:/NEWPARTS/DATA/PARTSPLANS/FJ0102/TransactionFiles/",
+    "fileDescription": "Sample Payroll File",
+    "fileRows": 1414,
+    "fileColumns": 38
+    },
+    "fieldProperties":
+    [
+    {"itemNumber":1, "itemColumnNumber":5, "itemTotalAmount":5610974.01, "itemCountNotZero":1233, "code": "mtdcomp", "datatype": "compensation", "reportlabel": "plan comp, ptd", "fundelectionsetoption": "0", "fundcode": "", "electionsetcode": "", "portionspecialnumericoption": "2", "specialnumericcode": "nu07", "portioncode": "", "activitytypecode": ""}, 
+    {"itemNumber":2, "itemColumnNumber":6, "itemTotalAmount":33119582.14, "itemCountNotZero":1212, "code": "ptdother1", "datatype": "compensation", "reportlabel": "plan comp, qtd", "fundelectionsetoption": "0", "fundcode": "", "electionsetcode": "", "portionspecialnumericoption": "2", "specialnumericcode": "nu11", "portioncode": "", "activitytypecode": ""}, 
+    {"itemNumber":3, "itemColumnNumber":7, "itemTotalAmount":440547.51, "itemCountNotZero":1020, "code": "mtdpretax", "datatype": "financial", "reportlabel": "pre-tax, ptd", "fundelectionsetoption": "2", "fundcode": "", "electionsetcode": "el00", "portionspecialnumericoption": "1", "specialnumericcode": "", "portioncode": "pt12", "activitytypecode": "ac36"}, 
+    {"itemNumber":4, "itemColumnNumber":8, "itemTotalAmount":0.00, "itemCountNotZero":0, "code": "mtdmatch", "datatype": "financial", "reportlabel": "employer match, ptd", "fundelectionsetoption": "2", "fundcode": "", "electionsetcode": "el00", "portionspecialnumericoption": "1", "specialnumericcode": "", "portioncode": "pt61", "activitytypecode": "ac36"}, 
+    {"itemNumber":5, "itemColumnNumber":10, "itemTotalAmount":122504.54, "itemCountNotZero":144, "code": "ptdabasic", "datatype": "financial", "reportlabel": "after tax basic, ptd", "fundelectionsetoption": "2", "fundcode": "", "electionsetcode": "el04", "portionspecialnumericoption": "1", "specialnumericcode": "", "portioncode": "pt00", "activitytypecode": "ac36"}, 
+    {"itemNumber":6, "itemColumnNumber":11, "itemTotalAmount":28309.59, "itemCountNotZero":128, "code": "fujitsucu", "datatype": "financial", "reportlabel": "fujitsu catch-up, ptd", "fundelectionsetoption": "2", "fundcode": "", "electionsetcode": "el00", "portionspecialnumericoption": "1", "specialnumericcode": "", "portioncode": "pt13", "activitytypecode": "ac36"}, 
+    {"itemNumber":7, "itemColumnNumber":12, "itemTotalAmount":19530.92, "itemCountNotZero":90, "code": "ptdrothdf", "datatype": "financial roth", "reportlabel": "roth deferral, ptd", "fundelectionsetoption": "2", "fundcode": "", "electionsetcode": "el04", "portionspecialnumericoption": "1", "specialnumericcode": "", "portioncode": "pt58", "activitytypecode": "ac36"}, 
+    {"itemNumber":8, "itemColumnNumber":13, "itemTotalAmount":1701.34, "itemCountNotZero":9, "code": "ptdrcatup", "datatype": "financial roth", "reportlabel": "roth catch-up, ptd", "fundelectionsetoption": "2", "fundcode": "", "electionsetcode": "el04", "portionspecialnumericoption": "1", "specialnumericcode": "", "portioncode": "p186", "activitytypecode": "ac36"}, 
+    {"itemNumber":9, "itemColumnNumber":14, "itemTotalAmount":65809.59, "itemCountNotZero":281, "code": "mtdloan", "datatype": "loan", "reportlabel": "loan repay, ptd"}, 
+    {"itemNumber":10, "itemColumnNumber":15, "itemTotalAmount":0.00, "itemCountNotZero":0, "code": "matchreg", "datatype": "financial", "reportlabel": "fdns match", "fundelectionsetoption": "2", "fundcode": "", "electionsetcode": "el05", "portionspecialnumericoption": "1", "specialnumericcode": "", "portioncode": "pt77", "activitytypecode": "ac36"}, 
+    {"itemNumber":11, "itemColumnNumber":16, "itemTotalAmount":0.00, "itemCountNotZero":0, "code": "match3", "datatype": "financial", "reportlabel": "fa match", "fundelectionsetoption": "2", "fundcode": "", "electionsetcode": "el00", "portionspecialnumericoption": "1", "specialnumericcode": "", "portioncode": "p121", "activitytypecode": "ac36"}, 
+    {"itemNumber":12, "itemColumnNumber":17, "itemTotalAmount":0.00, "itemCountNotZero":0, "code": "match9", "datatype": "financial", "reportlabel": "fcai match", "fundelectionsetoption": "2", "fundcode": "", "electionsetcode": "el00", "portionspecialnumericoption": "1", "specialnumericcode": "", "portioncode": "p108", "activitytypecode": "ac36"}, 
+    {"itemNumber":13, "itemColumnNumber":18, "itemTotalAmount":12195.50, "itemCountNotZero":96, "code": "match10", "datatype": "financial", "reportlabel": "fcpa match", "fundelectionsetoption": "2", "fundcode": "", "electionsetcode": "el00", "portionspecialnumericoption": "1", "specialnumericcode": "", "portioncode": "p109", "activitytypecode": "ac36"}, 
+    {"itemNumber":14, "itemColumnNumber":19, "itemTotalAmount":0.00, "itemCountNotZero":0, "code": "match11", "datatype": "financial", "reportlabel": "fdk match", "fundelectionsetoption": "2", "fundcode": "", "electionsetcode": "el00", "portionspecialnumericoption": "1", "specialnumericcode": "", "portioncode": "p110", "activitytypecode": "ac36"}, 
+    {"itemNumber":15, "itemColumnNumber":20, "itemTotalAmount":0.00, "itemCountNotZero":0, "code": "match4", "datatype": "financial", "reportlabel": "ffna match", "fundelectionsetoption": "2", "fundcode": "", "electionsetcode": "el00", "portionspecialnumericoption": "1", "specialnumericcode": "", "portioncode": "p120", "activitytypecode": "ac36"}, 
+    {"itemNumber":16, "itemColumnNumber":21, "itemTotalAmount":0.00, "itemCountNotZero":0, "code": "match12", "datatype": "financial", "reportlabel": "dc match", "fundelectionsetoption": "2", "fundcode": "", "electionsetcode": "el00", "portionspecialnumericoption": "1", "specialnumericcode": "", "portioncode": "p111", "activitytypecode": "ac36"}, 
+    {"itemNumber":17, "itemColumnNumber":22, "itemTotalAmount":0.00, "itemCountNotZero":0, "code": "match13", "datatype": "financial", "reportlabel": "employer match 13", "fundelectionsetoption": "2", "fundcode": "", "electionsetcode": "el00", "portionspecialnumericoption": "1", "specialnumericcode": "", "portioncode": "pt61", "activitytypecode": "ac36"}, 
+    {"itemNumber":18, "itemColumnNumber":23, "itemTotalAmount":0.00, "itemCountNotZero":0, "code": "match14", "datatype": "financial", "reportlabel": "ny match", "fundelectionsetoption": "2", "fundcode": "", "electionsetcode": "el00", "portionspecialnumericoption": "1", "specialnumericcode": "", "portioncode": "p112", "activitytypecode": "ac36"}, 
+    {"itemNumber":19, "itemColumnNumber":24, "itemTotalAmount":0.00, "itemCountNotZero":0, "code": "match15", "datatype": "financial", "reportlabel": "fla match", "fundelectionsetoption": "2", "fundcode": "", "electionsetcode": "el00", "portionspecialnumericoption": "1", "specialnumericcode": "", "portioncode": "p114", "activitytypecode": "ac36"}, 
+    {"itemNumber":20, "itemColumnNumber":25, "itemTotalAmount":0.00, "itemCountNotZero":0, "code": "match5", "datatype": "financial", "reportlabel": "bdi match", "fundelectionsetoption": "2", "fundcode": "", "electionsetcode": "el00", "portionspecialnumericoption": "1", "specialnumericcode": "", "portioncode": "p104", "activitytypecode": "ac36"}, 
+    {"itemNumber":21, "itemColumnNumber":26, "itemTotalAmount":0.00, "itemCountNotZero":0, "code": "match2", "datatype": "financial", "reportlabel": "employer match (source 8)", "fundelectionsetoption": "2", "fundcode": "", "electionsetcode": "el00", "portionspecialnumericoption": "1", "specialnumericcode": "", "portioncode": "pt24", "activitytypecode": "ac36"}, 
+    {"itemNumber":22, "itemColumnNumber":27, "itemTotalAmount":98118.08, "itemCountNotZero":886, "code": "match16", "datatype": "financial", "reportlabel": "fnc match", "fundelectionsetoption": "2", "fundcode": "", "electionsetcode": "el00", "portionspecialnumericoption": "1", "specialnumericcode": "", "portioncode": "p118", "activitytypecode": "ac36"}, 
+    {"itemNumber":23, "itemColumnNumber":28, "itemTotalAmount":3177.26, "itemCountNotZero":23, "code": "match6", "datatype": "financial", "reportlabel": "fpsi match", "fundelectionsetoption": "2", "fundcode": "", "electionsetcode": "el00", "portionspecialnumericoption": "1", "specialnumericcode": "", "portioncode": "p105", "activitytypecode": "ac36"}, 
+    {"itemNumber":24, "itemColumnNumber":18, "itemTotalAmount":12195.50, "itemCountNotZero":96, "code": "match1", "datatype": "financial", "reportlabel": "glo match", "fundelectionsetoption": "2", "fundcode": "", "electionsetcode": "el00", "portionspecialnumericoption": "1", "specialnumericcode": "", "portioncode": "p119", "activitytypecode": "ac36"}, 
+    {"itemNumber":25, "itemColumnNumber":30, "itemTotalAmount":0.00, "itemCountNotZero":0, "code": "match7", "datatype": "financial", "reportlabel": "shinko match", "fundelectionsetoption": "2", "fundcode": "", "electionsetcode": "el00", "portionspecialnumericoption": "1", "specialnumericcode": "", "portioncode": "p106", "activitytypecode": "ac36"}, 
+    {"itemNumber":26, "itemColumnNumber":31, "itemTotalAmount":0.00, "itemCountNotZero":0, "code": "match8", "datatype": "financial", "reportlabel": "kli match", "fundelectionsetoption": "2", "fundcode": "", "electionsetcode": "el00", "portionspecialnumericoption": "1", "specialnumericcode": "", "portioncode": "p107", "activitytypecode": "ac36"}, 
+    {"itemNumber":27, "itemColumnNumber":32, "itemTotalAmount":16292.75, "itemCountNotZero":90, "code": "match17", "datatype": "financial", "reportlabel": "ftba match", "fundelectionsetoption": "2", "fundcode": "", "electionsetcode": "el00", "portionspecialnumericoption": "1", "specialnumericcode": "", "portioncode": "p115", "activitytypecode": "ac36"}, 
+    {"itemNumber":28, "itemColumnNumber":33, "itemTotalAmount":392.08, "itemCountNotZero":2, "code": "match18", "datatype": "financial", "reportlabel": "tta match", "fundelectionsetoption": "2", "fundcode": "", "electionsetcode": "el00", "portionspecialnumericoption": "1", "specialnumericcode": "", "portioncode": "p116", "activitytypecode": "ac36"}, 
+    {"itemNumber":29, "itemColumnNumber":34, "itemTotalAmount":0.00, "itemCountNotZero":0, "code": "match19", "datatype": "financial", "reportlabel": "employer match 19", "fundelectionsetoption": "2", "fundcode": "", "electionsetcode": "el00", "portionspecialnumericoption": "1", "specialnumericcode": "", "portioncode": "pt61", "activitytypecode": "ac36"}, 
+    {"itemNumber":30, "itemColumnNumber":35, "itemTotalAmount":1050.37, "itemCountNotZero":6, "code": "match20", "datatype": "financial", "reportlabel": "grc match", "fundelectionsetoption": "2", "fundcode": "", "electionsetcode": "el00", "portionspecialnumericoption": "1", "specialnumericcode": "", "portioncode": "p122", "activitytypecode": "ac36"}, 
+    {"itemNumber":31, "itemColumnNumber":36, "itemTotalAmount":0.00, "itemCountNotZero":0, "code": "match21", "datatype": "financial", "reportlabel": "fea match", "fundelectionsetoption": "2", "fundcode": "", "electionsetcode": "el00", "portionspecialnumericoption": "1", "specialnumericcode": "", "portioncode": "p102", "activitytypecode": "ac36"}, 
+    {"itemNumber":32, "itemColumnNumber":37, "itemTotalAmount":0.00, "itemCountNotZero":0, "code": "match22", "datatype": "financial", "reportlabel": "sna match", "fundelectionsetoption": "2", "fundcode": "", "electionsetcode": "el00", "portionspecialnumericoption": "1", "specialnumericcode": "", "portioncode": "p103", "activitytypecode": "ac36"}, 
+    {"itemNumber":33, "itemColumnNumber":38, "itemTotalAmount":0.00, "itemCountNotZero":0, "code": "match23", "datatype": "financial", "reportlabel": "bdi match", "fundelectionsetoption": "2", "fundcode": "", "electionsetcode": "el00", "portionspecialnumericoption": "1", "specialnumericcode": "", "portioncode": "p123", "activitytypecode": "ac36", "": ""}
+    ],
+    
+    "Participants": [
+    {
+    "properties": [
+    {
+    "name": "tag", 
+    "value": ".f."
+    }, 
+    {
+    "name": "recstatus", 
+    "value": "P"
+    }, 
+    {
+    "name": "socsec", 
+    "value": "452061756"
+    }, 
+    {
+    "name": "name", 
+    "value": "Whbs Dopal"
+    }, 
+    {
+    "name": "mtdcomp", 
+    "value": 5475.36
+    }, 
+    {
+    "name": "ptdother1", 
+    "value": 32852.14
+    }, 
+    {
+    "name": "mtdpretax", 
+    "value": 547.54
+    }, 
+    {
+    "name": "mtdmatch", 
+    "value": 0.00
+    }, 
+    {
+    "name": "ptdpscont", 
+    "value": 0.00
+    }, 
+    {
+    "name": "ptdabasic", 
+    "value": 0.00
+    }, 
+    {
+    "name": "fujitsucu", 
+    "value": 0.00
+    }, 
+    {
+    "name": "ptdrothdf", 
+    "value": 0.00
+    }, 
+    {
+    "name": "ptdrcatup", 
+    "value": 0.00
+    }, 
+    {
+    "name": "mtdloan", 
+    "value": 0.00
+    }, 
+    {
+    "name": "matchreg", 
+    "value": 0.00
+    }, 
+    {
+    "name": "match3", 
+    "value": 0.00
+    }, 
+    {
+    "name": "match9", 
+    "value": 0.00
+    }, 
+    {
+    "name": "match10", 
+    "value": 0.00
+    }, 
+    {
+    "name": "match11", 
+    "value": 0.00
+    }, 
+    {
+    "name": "match4", 
+    "value": 0.00
+    }, 
+    {
+    "name": "match12", 
+    "value": 0.00
+    }, 
+    {
+    "name": "match13", 
+    "value": 0.00
+    }, 
+    {
+    "name": "match14", 
+    "value": 0.00
+    }, 
+    {
+    "name": "match15", 
+    "value": 0.00
+    }, 
+    {
+    "name": "match5", 
+    "value": 0.00
+    }, 
+    {
+    "name": "match2", 
+    "value": 0.00
+    }, 
+    {
+    "name": "match16", 
+    "value": 136.88
+    }, 
+    {
+    "name": "match6", 
+    "value": 0.00
+    }, 
+    {
+    "name": "match1", 
+    "value": 0.00
+    }, 
+    {
+    "name": "match7", 
+    "value": 0.00
+    }, 
+    {
+    "name": "match8", 
+    "value": 0.00
+    }, 
+    {
+    "name": "match17", 
+    "value": 0.00
+    }, 
+    {
+    "name": "match18", 
+    "value": 0.00
+    }, 
+    {
+    "name": "match19", 
+    "value": 0.00
+    }, 
+    {
+    "name": "match20", 
+    "value": 0.00
+    }, 
+    {
+    "name": "match21", 
+    "value": 0.00
+    }, 
+    {
+    "name": "match22", 
+    "value": 0.00
+    }, 
+    {
+    "name": "match23", 
+    "value": 0.00
+    }
+    ]
+    }, 
+    {
+    "properties": [
+    {
+    "name": "tag", 
+    "value": ".f."
+    }, 
+    {
+    "name": "recstatus", 
+    "value": "P"
+    }, 
+    {
+    "name": "socsec", 
+    "value": "263852515"
+    }, 
+    {
+    "name": "name", 
+    "value": "Lkdpu Yvdhuk"
+    }, 
+    {
+    "name": "mtdcomp", 
+    "value": 6331.12
+    }, 
+    {
+    "name": "ptdother1", 
+    "value": 37986.76
+    }, 
+    {
+    "name": "mtdpretax", 
+    "value": 0.00
+    }, 
+    {
+    "name": "mtdmatch", 
+    "value": 0.00
+    }, 
+    {
+    "name": "ptdpscont", 
+    "value": 0.00
+    }, 
+    {
+    "name": "ptdabasic", 
+    "value": 1202.91
+    }, 
+    {
+    "name": "fujitsucu", 
+    "value": 0.00
+    }, 
+    {
+    "name": "ptdrothdf", 
+    "value": 0.00
+    }, 
+    {
+    "name": "ptdrcatup", 
+    "value": 0.00
+    }, 
+    {
+    "name": "mtdloan", 
+    "value": 0.00
+    }, 
+    {
+    "name": "matchreg", 
+    "value": 0.00
+    }, 
+    {
+    "name": "match3", 
+    "value": 0.00
+    }, 
+    {
+    "name": "match9", 
+    "value": 0.00
+    }, 
+    {
+    "name": "match10", 
+    "value": 0.00
+    }, 
+    {
+    "name": "match11", 
+    "value": 0.00
+    }, 
+    {
+    "name": "match4", 
+    "value": 0.00
+    }, 
+    {
+    "name": "match12", 
+    "value": 0.00
+    }, 
+    {
+    "name": "match13", 
+    "value": 0.00
+    }, 
+    {
+    "name": "match14", 
+    "value": 0.00
+    }, 
+    {
+    "name": "match15", 
+    "value": 0.00
+    }, 
+    {
+    "name": "match5", 
+    "value": 0.00
+    }, 
+    {
+    "name": "match2", 
+    "value": 0.00
+    }, 
+    {
+    "name": "match16", 
+    "value": 158.28
+    }, 
+    {
+    "name": "match6", 
+    "value": 0.00
+    }, 
+    {
+    "name": "match1", 
+    "value": 0.00
+    }, 
+    {
+    "name": "match7", 
+    "value": 0.00
+    }, 
+    {
+    "name": "match8", 
+    "value": 0.00
+    }, 
+    {
+    "name": "match17", 
+    "value": 0.00
+    }, 
+    {
+    "name": "match18", 
+    "value": 0.00
+    }, 
+    {
+    "name": "match19", 
+    "value": 0.00
+    }, 
+    {
+    "name": "match20", 
+    "value": 0.00
+    }, 
+    {
+    "name": "match21", 
+    "value": 0.00
+    }, 
+    {
+    "name": "match22", 
+    "value": 0.00
+    }, 
+    {
+    "name": "match23", 
+    "value": 0.00
+    }
+    ]
+    }, 
+    {
+    "properties": [
+    {
+    "name": "tag", 
+    "value": ".f."
+    }, 
+    {
+    "name": "recstatus", 
+    "value": "P"
+    }, 
+    {
+    "name": "socsec", 
+    "value": "409969965"
+    }, 
+    {
+    "name": "name", 
+    "value": "Yhukhss Zptwzvu"
+    }, 
+    {
+    "name": "mtdcomp", 
+    "value": 5891.12
+    }, 
+    {
+    "name": "ptdother1", 
+    "value": 35346.71
+    }, 
+    {
+    "name": "mtdpretax", 
+    "value": 765.85
+    }, 
+    {
+    "name": "mtdmatch", 
+    "value": 0.00
+    }, 
+    {
+    "name": "ptdpscont", 
+    "value": 0.00
+    }, 
+    {
+    "name": "ptdabasic", 
+    "value": 0.00
+    }, 
+    {
+    "name": "fujitsucu", 
+    "value": 0.00
+    }, 
+    {
+    "name": "ptdrothdf", 
+    "value": 0.00
+    }, 
+    {
+    "name": "ptdrcatup", 
+    "value": 0.00
+    }, 
+    {
+    "name": "mtdloan", 
+    "value": 0.00
+    }, 
+    {
+    "name": "matchreg", 
+    "value": 0.00
+    }, 
+    {
+    "name": "match3", 
+    "value": 0.00
+    }, 
+    {
+    "name": "match9", 
+    "value": 0.00
+    }, 
+    {
+    "name": "match10", 
+    "value": 0.00
+    }, 
+    {
+    "name": "match11", 
+    "value": 0.00
+    }, 
+    {
+    "name": "match4", 
+    "value": 0.00
+    }, 
+    {
+    "name": "match12", 
+    "value": 0.00
+    }, 
+    {
+    "name": "match13", 
+    "value": 0.00
+    }, 
+    {
+    "name": "match14", 
+    "value": 0.00
+    }, 
+    {
+    "name": "match15", 
+    "value": 0.00
+    }, 
+    {
+    "name": "match5", 
+    "value": 0.00
+    }, 
+    {
+    "name": "match2", 
+    "value": 0.00
+    }, 
+    {
+    "name": "match16", 
+    "value": 147.28
+    }, 
+    {
+    "name": "match6", 
+    "value": 0.00
+    }, 
+    {
+    "name": "match1", 
+    "value": 0.00
+    }, 
+    {
+    "name": "match7", 
+    "value": 0.00
+    }, 
+    {
+    "name": "match8", 
+    "value": 0.00
+    }, 
+    {
+    "name": "match17", 
+    "value": 0.00
+    }, 
+    {
+    "name": "match18", 
+    "value": 0.00
+    }, 
+    {
+    "name": "match19", 
+    "value": 0.00
+    }, 
+    {
+    "name": "match20", 
+    "value": 0.00
+    }, 
+    {
+    "name": "match21", 
+    "value": 0.00
+    }, 
+    {
+    "name": "match22", 
+    "value": 0.00
+    }, 
+    {
+    "name": "match23", 
+    "value": 0.00
+    }
+    ]
+    }, 
+    {
+    "properties": [
+    {
+    "name": "tag", 
+    "value": ".f."
+    }, 
+    {
+    "name": "recstatus", 
+    "value": "P"
+    }, 
+    {
+    "name": "socsec", 
+    "value": "428219358"
+    }, 
+    {
+    "name": "name", 
+    "value": "Albert V. Smith"
+    }, 
+    {
+    "name": "mtdcomp", 
+    "value": 5824.99
+    }, 
+    {
+    "name": "ptdother1", 
+    "value": 34949.95
+    }, 
+    {
+    "name": "mtdpretax", 
+    "value": 663.83
+    }, 
+    {
+    "name": "mtdmatch", 
+    "value": 0.00
+    }, 
+    {
+    "name": "ptdpscont", 
+    "value": 0.00
+    }, 
+    {
+    "name": "ptdabasic", 
+    "value": 209.92
+    }, 
+    {
+    "name": "fujitsucu", 
+    "value": 0.00
+    }, 
+    {
+    "name": "ptdrothdf", 
+    "value": 0.00
+    }, 
+    {
+    "name": "ptdrcatup", 
+    "value": 0.00
+    }, 
+    {
+    "name": "mtdloan", 
+    "value": 0.00
+    }, 
+    {
+    "name": "matchreg", 
+    "value": 0.00
+    }, 
+    {
+    "name": "match3", 
+    "value": 0.00
+    }, 
+    {
+    "name": "match9", 
+    "value": 0.00
+    }, 
+    {
+    "name": "match10", 
+    "value": 0.00
+    }, 
+    {
+    "name": "match11", 
+    "value": 0.00
+    }, 
+    {
+    "name": "match4", 
+    "value": 0.00
+    }, 
+    {
+    "name": "match12", 
+    "value": 0.00
+    }, 
+    {
+    "name": "match13", 
+    "value": 0.00
+    }, 
+    {
+    "name": "match14", 
+    "value": 0.00
+    }, 
+    {
+    "name": "match15", 
+    "value": 0.00
+    }, 
+    {
+    "name": "match5", 
+    "value": 0.00
+    }, 
+    {
+    "name": "match2", 
+    "value": 0.00
+    }, 
+    {
+    "name": "match16", 
+    "value": 145.62
+    }, 
+    {
+    "name": "match6", 
+    "value": 0.00
+    }, 
+    {
+    "name": "match1", 
+    "value": 0.00
+    }, 
+    {
+    "name": "match7", 
+    "value": 0.00
+    }, 
+    {
+    "name": "match8", 
+    "value": 0.00
+    }, 
+    {
+    "name": "match17", 
+    "value": 0.00
+    }, 
+    {
+    "name": "match18", 
+    "value": 0.00
+    }, 
+    {
+    "name": "match19", 
+    "value": 0.00
+    }, 
+    {
+    "name": "match20", 
+    "value": 0.00
+    }, 
+    {
+    "name": "match21", 
+    "value": 0.00
+    }, 
+    {
+    "name": "match22", 
+    "value": 0.00
+    }, 
+    {
+    "name": "match23", 
+    "value": 0.00
+    }
+    ]
+    }, 
+    {
+    "properties": [
+    {
+    "name": "tag", 
+    "value": ".f."
+    }, 
+    {
+    "name": "recstatus", 
+    "value": "P"
+    }, 
+    {
+    "name": "socsec", 
+    "value": "055467080"
+    }, 
+    {
+    "name": "name", 
+    "value": "Richard Stopsky"
+    }, 
+    {
+    "name": "mtdcomp", 
+    "value": 0.00
+    }, 
+    {
+    "name": "ptdother1", 
+    "value": 55004.50
+    }, 
+    {
+    "name": "mtdpretax", 
+    "value": 0.00
+    }, 
+    {
+    "name": "mtdmatch", 
+    "value": 0.00
+    }, 
+    {
+    "name": "ptdpscont", 
+    "value": 0.00
+    }, 
+    {
+    "name": "ptdabasic", 
+    "value": 0.00
+    }, 
+    {
+    "name": "fujitsucu", 
+    "value": 0.00
+    }, 
+    {
+    "name": "ptdrothdf", 
+    "value": 0.00
+    }, 
+    {
+    "name": "ptdrcatup", 
+    "value": 0.00
+    }, 
+    {
+    "name": "mtdloan", 
+    "value": 445.47
+    }, 
+    {
+    "name": "matchreg", 
+    "value": 0.00
+    }, 
+    {
+    "name": "match3", 
+    "value": 0.00
+    }, 
+    {
+    "name": "match9", 
+    "value": 0.00
+    }, 
+    {
+    "name": "match10", 
+    "value": 0.00
+    }, 
+    {
+    "name": "match11", 
+    "value": 0.00
+    }, 
+    {
+    "name": "match4", 
+    "value": 0.00
+    }, 
+    {
+    "name": "match12", 
+    "value": 0.00
+    }, 
+    {
+    "name": "match13", 
+    "value": 0.00
+    }, 
+    {
+    "name": "match14", 
+    "value": 0.00
+    }, 
+    {
+    "name": "match15", 
+    "value": 0.00
+    }, 
+    {
+    "name": "match5", 
+    "value": 0.00
+    }, 
+    {
+    "name": "match2", 
+    "value": 0.00
+    }, 
+    {
+    "name": "match16", 
+    "value": 0.00
+    }, 
+    {
+    "name": "match6", 
+    "value": 0.00
+    }, 
+    {
+    "name": "match1", 
+    "value": 0.00
+    }, 
+    {
+    "name": "match7", 
+    "value": 0.00
+    }, 
+    {
+    "name": "match8", 
+    "value": 0.00
+    }, 
+    {
+    "name": "match17", 
+    "value": 0.00
+    }, 
+    {
+    "name": "match18", 
+    "value": 0.00
+    }, 
+    {
+    "name": "match19", 
+    "value": 0.00
+    }, 
+    {
+    "name": "match20", 
+    "value": 0.00
+    }, 
+    {
+    "name": "match21", 
+    "value": 0.00
+    }, 
+    {
+    "name": "match22", 
+    "value": 0.00
+    }, 
+    {
+    "name": "match23", 
+    "value": 0.00
+    }
+    ]
+    }
+    
+    ]
+    }
+    

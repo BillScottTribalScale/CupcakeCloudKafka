@@ -1,0 +1,1 @@
+kafkacat -C -t PAYDAY_PLAN_RESULTS_V1_DEV -b localhost:9092
